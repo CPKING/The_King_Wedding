@@ -1,0 +1,154 @@
+
+p.ex {
+    text-align: center;
+}
+p.center {
+	text-align: center;
+}
+h1 {
+	font-family: verdana; text-align: center; color: #C0C0C0; 
+}
+h2 {
+	font-family: verdana; color: #C0C0C0;
+}
+p {
+	font-family: 'Slabo 27px';
+}
+img.center {
+    display: block;
+    margin-top: -173px;
+    width: 100%;
+}
+img.centerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+}
+.image{
+	height: 420px;
+	width: 100%;
+	overflow: hidden;
+}
+.wrapper2{
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.travel{
+	float: left;
+	/*width: 400px;*/
+	overflow: auto;
+	margin-right: 15px; /*added this in*/
+	width: 385px; /*added this in*/
+}
+.what_to_do{
+	float: left;
+	/*width: 400px;*/
+	overflow: auto;
+	margin-right: 15px; /*added this in*/
+	width: 385px; /*added this in*/
+}
+.where_to_stay{
+	float: left;
+	/*width: 400px;*/
+	overflow: auto;
+	margin-right: 15px; /*added this in*/
+	width: 385px; /*added this in*/
+}
+.wrapper3{
+	width: 100%;
+	position: relative;
+}
+.hotels{
+	float: left;
+	/*width: 400px;*/
+	overflow: auto;
+	margin-right: 15px; /*added this in*/
+	width: 385px; /*added this in*/
+}
+.bnbs{
+	float: left;
+	/*width: 400px;*/
+	overflow: auto;
+	margin-right: 15px; /*added this in*/
+	width: 385px; /*added this in*/
+}
+.help{
+	float: left;
+	/*width: 400px;*/
+	overflow: auto;
+	margin-right: 15px; /*added this in*/
+	width: 385px; /*added this in*/
+}
+.footer{
+	/*float: left;*/
+	width: 100%;
+	overflow: auto;
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.travel, .what_to_do, .where_to_stay, .hotels, .bnbs, .help{
+	float:none;
+	width: 100%;
+}
+	.wrapper, .wrapper2, .wrapper3{
+		width: 100%;
+	}
+	iframe{
+		display: none;
+	}
+	img.center{
+		width: 100%;
+		display: block;
+		margin-top: 0;
+	}
+	.image{
+		overflow: auto;
+		height: auto;
+	}
+	img.centerlogo{
+		width: 80%;
+	}
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2){ 
+  	.travel, .what_to_do, .where_to_stay, .hotels, .bnbs, .help{
+	float:none;
+	width: 100%;
+}
+	.wrapper, .wrapper2, .wrapper3{
+		width: 100%;
+	}
+	iframe{
+		display: none;
+	}
+	img.center{
+		width: 100%;
+		display: block;
+		margin-top: 0;
+	}
+	.image{
+		overflow: auto;
+		height: auto;
+	}
+	img.centerlogo{
+		width: 80%;
+	}
+}
+
